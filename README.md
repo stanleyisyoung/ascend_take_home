@@ -3,9 +3,7 @@ pip install -r requirements.txt
 python manage.py makemigrations
 python manage.py migrate
 
-# Testing:
-# run the following command in /stanley_ascend
-# this will run this test file apis/tests.py
+# Testing: run the following command in /stanley_ascend this will run this test file apis/tests.py
 python manage.py test
 
 # For manual testing: Create test objects with django shell
