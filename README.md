@@ -8,14 +8,13 @@ python manage.py migrate
 # this will run this test file apis/tests.py
 python manage.py test
 
-# For manual testing:
-# create test objects with django shell
+# For manual testing: Create test objects with django shell
 python manage.py shell
 # Run the server
 python manage.py runserver
 Go to http://127.0.0.1:8000/
 # execute desired API calls
-# use apis/tests.py for reference 
+use apis/tests.py for reference 
 
 # Design decisions and areas for future improvement:
 The majaority of the app logic currently lives in the view layer. This can be extracted to a service layer to keep the view layer thin and only responsible for formatting the data.
